@@ -51,7 +51,7 @@ public class DiceRoll {
 
 			// 1. Make randomChoice equal to a random number between 1 and 6
 			Random rand = new Random();
-			int randomChoice = rand.nextInt(6) + 1;
+			int randomChoi = rand.nextInt(6) + 1;
 			
 
 			// 2. Fix the code below so that it displays the correct image

@@ -32,7 +32,7 @@ public class Validation {
 		} else if (randomChoice == 4) {
 		JOptionPane.showMessageDialog(null, "You are very smart!");	
 		} else if (randomChoice == 5) {
-			JOptionPane.showMessageDialog(null, "You are good at coding!");			
+		JOptionPane.showMessageDialog(null, "You are good at coding!");			
 		} 
 		// 2. Repeat all the code above 10 times
 		

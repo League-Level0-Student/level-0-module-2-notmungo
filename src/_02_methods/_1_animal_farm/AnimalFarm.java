@@ -25,11 +25,18 @@ public class AnimalFarm {
 	
 	void animals() {
 
-		/* 1. Ask the user which animal they want, then see and hear 
-		 *    the animal they chose using one of the methods below.
-		*/			 
+		// 1. Ask the user which animal they want, then see and hear 
+		String question = JOptionPane.showInputDialog("what animal do you want?") ;
+		
+		if (question.equals("cow")) {
+		moo()	;
+		}
+		 	
+		
+		//     the animal they chose using one of the methods below.
+					 
 			
-		/* 2. Make it so that the user can keep entering new animals. */
+		// 2. Make it so that the user can keep entering new animals. */
 
 	}
 

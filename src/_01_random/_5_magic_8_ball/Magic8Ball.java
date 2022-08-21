@@ -28,24 +28,24 @@ public static void main(String[] args) {
 	
 	randomNum = rand.nextInt(4);
 	// 4. If the random number is 0
-    if (randomNum ==0) { ;
+    if (randomNum ==0) { 
     String message = JOptionPane.showInputDialog(null, "yes") ;
     }
 	// -- tell the user "Yes"
 
 	// 5. If the random number is 1
- if (randomNum ==1) { ;
+ if (randomNum ==1) { 
     String message = JOptionPane.showInputDialog(null, "no") ;
     }
 
 	// 6. If the random number is 2
- if (randomNum ==2) { ;
+ if (randomNum ==2) { 
     String message = JOptionPane.showInputDialog(null, "Maybe you should ask google?") ;
     }
 	// -- tell the user "Maybe you should ask Google?"
 
 	// 7. If the random number is 3
-    if (randomNum ==3) { ;
+    if (randomNum ==3) { 
     String message = JOptionPane.showInputDialog(null, "Come again next time!") ;
     }
 	// -- write your own answer

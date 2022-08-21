@@ -29,9 +29,20 @@ public class AnimalFarm {
 		String question = JOptionPane.showInputDialog("what animal do you want?") ;
 		
 		if (question.equals("cow")) {
-		moo()	;
+		    moo()	;
 		}
-		 	
+		if (question.equals("duck")) {
+			quack ()	;
+		}
+		if (question.equals("dog")) {
+			woof()	;
+		}
+		if (question.equals("cat")) {
+			meow()	;
+		}
+		if (question.equals("llama")) { 
+			llamaScream();
+		}	
 		
 		//     the animal they chose using one of the methods below.
 					 

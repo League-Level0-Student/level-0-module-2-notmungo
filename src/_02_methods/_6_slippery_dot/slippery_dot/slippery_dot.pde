@@ -36,7 +36,8 @@
           
       //7.  Use an if statement to check if your distance variable is < the radius of the ellipse
             if (distance < sizeEllipseWidth/2) {
-              
+                x = (int) random(width);
+                y = (int) random(width);
             }
       //    If it is, make a new x AND y for the ellipse, for a new random location on the window
       //    Hint: Use code like this      x = (int) random(width);
